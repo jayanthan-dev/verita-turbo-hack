@@ -32,7 +32,7 @@ export default function AppRoot() {
       {!isAuthenticated ? (
         <AdminLogin key="login" onLogin={() => setIsAuthenticated(true)} />
       ) : (
-        <AntigravityNexus key="nexus" onLogout={() => setIsAuthenticated(false)} />
+        <VeritasNexus key="nexus" onLogout={() => setIsAuthenticated(false)} />
       )}
     </AnimatePresence>
   );
@@ -85,6 +85,9 @@ function AdminLogin({ onLogin }: { onLogin: () => void }) {
           <p style={{ color: "var(--text-sec)", fontFamily: "var(--font-mono)", fontSize: "0.85rem", marginTop: "0.5rem" }}>
             Sovereign Admin Authorization
           </p>
+          <div style={{ fontSize: "0.75rem", color: "var(--neon-cyan)", fontFamily: "var(--font-mono)", marginTop: "0.5rem", opacity: 0.8 }}>
+            Login: admin@gmail.com / admin
+          </div>
         </div>
 
         <form onSubmit={handleLogin} style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
@@ -136,7 +139,7 @@ function AdminLogin({ onLogin }: { onLogin: () => void }) {
   );
 }
 
-function AntigravityNexus({ onLogout }: { onLogout: () => void }) {
+function VeritasNexus({ onLogout }: { onLogout: () => void }) {
   const [verdicts, setVerdicts] = useState<VeritasVerdict[]>([]);
   const [selectedVerdict, setSelectedVerdict] = useState<VeritasVerdict | null>(null);
   const [stasisMode, setStasisMode] = useState(false);
@@ -316,7 +319,7 @@ function AntigravityNexus({ onLogout }: { onLogout: () => void }) {
           </button>
 
           <h1 className="header-accent" style={{ fontSize: "2rem", marginBottom: "0.5rem", letterSpacing: "0.05em" }}>Veritas Mesh</h1>
-          <p style={{ color: "var(--neon-cyan)", fontSize: "0.9rem", marginBottom: "1.5rem", fontFamily: "var(--font-mono)", opacity: 0.8 }}>Antigravity Nexus Control</p>
+          <p style={{ color: "var(--neon-cyan)", fontSize: "0.9rem", marginBottom: "1.5rem", fontFamily: "var(--font-mono)", opacity: 0.8 }}>Veritas Control</p>
 
           <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "1rem", padding: "0.8rem", background: "rgba(0,0,0,0.3)", borderRadius: "8px" }}>
             <span style={{ fontSize: "0.85rem", color: "var(--text-sec)", display: "flex", alignItems: "center", gap: "6px" }}><Activity size={14} /> Node Status</span>
@@ -399,7 +402,7 @@ function AntigravityNexus({ onLogout }: { onLogout: () => void }) {
         {/* DecisionFeed Table */}
         <div className="glass-panel" style={{ flex: 1, overflowY: "auto", display: "flex", flexDirection: "column" }}>
           <h2 style={{ marginBottom: "1.5rem", fontSize: "1.3rem", display: "flex", alignItems: "center", gap: "10px" }}>
-            Supreme Court Verdict Logs
+            Veritas Verdict Logs
             <span style={{ fontSize: "0.7rem", backgroundColor: "rgba(0,255,204,0.1)", color: "var(--neon-cyan)", padding: "4px 8px", borderRadius: "12px", fontFamily: "var(--font-mono)" }}>LIVE FEED</span>
           </h2>
 

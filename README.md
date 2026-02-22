@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here is the updated README.md file tailored for Project "Veritas Mesh". I have incorporated the project vision, the "Supreme Court" concept, and included the specific Admin Credentials you requested for your reviewers or judges.
 
-## Getting Started
+💎 Veritas Mesh: The AI Sovereign Kernel
+Project Status: 🚀 TurboHaQ '26 Entry
 
-First, run the development server:
+Access Credentials: * Admin Email: admin@gmail.com
 
-```bash
+Password: admin
+
+🏛️ Project Overview
+Veritas Mesh is not just another automation tool; it is a Governance Kernel for the autonomous era. In a world where AI agents outnumber human employees, "Agentic Chaos" is inevitable. Veritas Mesh acts as the Supreme Court of your enterprise, sitting above all specialized AI agents (DevOps, Security, Sales, and Code bots) to resolve conflicts and ensure strategic alignment.
+
+💡 Why It Exists
+As tech companies deploy more autonomous agents, these bots eventually clash. A "Cost-Saving Bot" might shut down a server while a "Scale-up Bot" is launching a feature. Veritas Mesh uses Nash Equilibrium Game Theory to negotiate between these AIs, ensuring the system never crashes due to conflicting logic.
+
+🛠️ The Five Pillars of Veritas
+The Nexus (Digital Twin): A dark-mode, 3D visualization of the live agent workforce and real-time conflict resolution.
+
+Intent Ledger (Black Box): A cryptographic ledger that records the intent and reasoning behind every AI action.
+
+Arbitration Lab: The "Constitutional Layer" where humans set the high-level laws that all AI must follow.
+
+Shadow Sandbox: A ghost environment for stress-testing AI-generated code before it hits production.
+
+Protocol Integrity: Utilizing Zero-Knowledge Proofs (ZKP) to ensure no agent has been tampered with.
+
+🚀 Getting Started
+This is a Next.js project bootstrapped with create-next-app.
+
+1. Installation
+Bash
+npm install
+# or
+yarn install
+2. Development Server
+Run the dev server to access the Nexus Dashboard:
+
+Bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 and use the Admin Credentials above to log in.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Tech Stack
+Frontend: Next.js 15 (App Router), Tailwind CSS, Three.js (for Nexus 3D visualization).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Logic: LangGraph (Multi-Agent reasoning), gRPC (Ultra-low latency comms).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Integrity: Hyperledger Fabric (Sovereign Ledger).
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📄 Submission Context
+This project focuses on Automation for Tech Companies. It addresses the massive overhead of managing autonomous systems by automating the oversight and arbitration of AI agents, reducing "Cognitive Load" for CTOs and DevOps leads.
